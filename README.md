@@ -2,12 +2,17 @@ Debugging Webpack unspecified errors
 ============
 The repository for the [This will make you more efficient at debugging Wepback unspecified build errors](https://medium.com/@maximus.koretskyi/this-will-make-you-more-efficient-at-debugging-wepback-unspecified-build-errors-6392850caed9) article
 
-Running the app
+Building the app
 ---------------
 
 ```
 npm i
-npm start
+npm run build
 ```
 
-Open a browser and navigate to http://localhost:8080/
+Debugging the webpack
+---------------
+
+```
+npm run debug
+```

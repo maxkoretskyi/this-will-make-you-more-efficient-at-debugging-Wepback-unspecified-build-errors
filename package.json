@@ -11,7 +11,8 @@
     "webpack": "^3.4.1"
   },
   "scripts": {
-    "start": "webpack"
+    "build": "webpack",
+    "debug": "node --inspect --debug-brk node_modules/webpack/bin/webpack.js"
   },
   "author": "",
   "license": "ISC"
